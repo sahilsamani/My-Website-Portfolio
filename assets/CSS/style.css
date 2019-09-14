@@ -74,7 +74,7 @@ body{
 
 
 
-/* NAVIGATION SECTION */
+/******************* NAVIGATION SECTION STARTS HERE *************/
 
 .navbar-light .navbar-nav .nav-link{
     color: white !important;
@@ -88,7 +88,7 @@ body{
 
 /* ABOUT ME SECTION */
 
-#aboutMe-section .aboutMe-title {
+ .common-title {
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: 500;
@@ -96,7 +96,7 @@ body{
     color: #fefefe;
 }
 
-#aboutMe-section .aboutMe-title::before {
+ .common-title::before {
     content: '';
     background-color: #1f226f;
     height: 4px;
@@ -108,7 +108,7 @@ body{
     border-radius: 50%;
 }
 
-#aboutMe-section .aboutMe-title::after {
+ .common-title::after {
     content: '';
     background-color: #5a64b7;
     height: 9px;
@@ -136,6 +136,39 @@ body{
 #aboutMe-section .col-md-6 img{
     border-radius: 40% !important;
     border-color: 3px black !important;
+}
+
+
+
+
+/************** SKILLS SECTION STARTS HERE ****************/
+
+#skills-section .card-image img {
+    width: 350px;
+    opacity: 0.4;
+    
+
+}
+
+#skills-section .card-image {
+    text-align: center;
+}
+
+#skills-section .card-content1 {
+    background-color: #3a4c66;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fefefe;
+}
+
+#skills-section .card-content2 {
+    background-color: #dde1e6;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 
