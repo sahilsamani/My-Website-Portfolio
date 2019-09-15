@@ -490,7 +490,7 @@ and (max-device-width : 736px) {
     #index-header-section {
     background: url(../images/index-imgPhone.jpg);
     background-size: cover;
-    height: auto;
+    height: 100vh;
     min-height: 100%;
     background-position: center;
     }
