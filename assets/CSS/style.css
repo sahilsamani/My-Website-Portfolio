@@ -403,5 +403,61 @@ p{
   }
 
 
+  /* MEDIA QUERIES */
+
+  @media only screen and (min-width: 320px) and (max-width: 479px){
+
+    #projects-section .carousel-inner .project-image img {
+        width: 100%;
+  }
+
+  #projects-section .content h1{
+    font-size: 25px;
+  }
+
+  #projects-section .text-container{
+    width: 100%;
+    font-size: 14px;
+  }
+
+}
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+    #projects-section .carousel-inner .project-image img {
+        width: 100%;
+  }
+
+  #projects-section .content h1{
+    font-size: 25px;
+  }
+
+  #projects-section .text-container{
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+
+    #projects-section .carousel-inner .project-image img {
+        width: 100%;
+  }
+
+  #projects-section .content h1{
+    font-size: 25px;
+  }
+
+  #projects-section .text-container{
+    width: 100%;
+    font-size: 14px;
+  }
+}
 
 
