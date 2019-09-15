@@ -406,6 +406,7 @@ p{
     }
   }
 
+
   @media only screen and (min-width: 320px) and (max-width: 479px){
 
     .main-content{
@@ -425,6 +426,21 @@ p{
     width: 100%;
     font-size: 14px;
   }
+
+  .common-title::before {
+    content: none;
+    
+}
+
+ .common-title::after {
+    content: none;
+    
+}
+
+.common-title{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
 
 }
 
@@ -459,6 +475,11 @@ and (max-device-width : 667px) {
     content: none;
     
 }
+
+.common-title{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
 }
 
 
@@ -484,6 +505,21 @@ and (max-device-width : 736px) {
     width: 100%;
     font-size: 14px;
   }
+
+  .common-title::before {
+    content: none;
+    
+}
+
+ .common-title::after {
+    content: none;
+    
+}
+
+.common-title{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
 }
 
 
