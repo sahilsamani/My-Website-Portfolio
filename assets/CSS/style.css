@@ -374,18 +374,6 @@ p{
       border: 2px solid white;
   }
    
-  @media screen and (max-width: 600px){
-    .contactMe-section{
-      flex-direction: column;
-    }
-    .message-section textarea{
-      height: 80px;
-    }
-    .input-sections,
-    .message-section{
-      width: 100%;
-    }
-  }
 
 
   /*************** FOOTER SECTION STARTS HERE **************/
@@ -405,10 +393,28 @@ p{
 
   /* MEDIA QUERIES */
 
+  @media screen and (max-width: 600px){
+    .contactMe-section{
+      flex-direction: column;
+    }
+    .message-section textarea{
+      height: 80px;
+    }
+    .input-sections,
+    .message-section{
+      width: 100%;
+    }
+  }
+
   @media only screen and (min-width: 320px) and (max-width: 479px){
+
+    .main-content{
+        margin-top: 0px;
+    }
 
     #projects-section .carousel-inner .project-image img {
         width: 100%;
+        text-align: center;
   }
 
   #projects-section .content h1{
@@ -427,8 +433,13 @@ p{
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 
+    .main-content{
+        margin-top: 0px;
+    }
+
     #projects-section .carousel-inner .project-image img {
         width: 100%;
+        text-align: center;
   }
 
   #projects-section .content h1{
@@ -439,6 +450,15 @@ and (max-device-width : 667px) {
     width: 100%;
     font-size: 14px;
   }
+  .common-title::before {
+    content: none;
+    
+}
+
+ .common-title::after {
+    content: none;
+    
+}
 }
 
 
@@ -446,8 +466,14 @@ and (max-device-width : 667px) {
 and (min-device-width : 414px)
 and (max-device-width : 736px) {
 
+    .main-content{
+        margin-top: 0px;
+    }
+
     #projects-section .carousel-inner .project-image img {
         width: 100%;
+        text-align: center;
+
   }
 
   #projects-section .content h1{
