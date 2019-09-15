@@ -219,5 +219,92 @@ p{
 }
 
 
+/**************** PROJECTS SECTION STARTS HERE **************/
+
+#projects-section .project-image{
+    text-align: center;
+}
+
+#projects-section .text-container{
+    text-align: center;
+}
+
+
+/* #projects-section .project-image img {
+    width: 350px;
+    opacity: 0.4;
+    
+} */
+
+
+#projects-section .text-container {
+    transition: ease-out 0.7s;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+#projects-section .content {
+    color: black;
+    font-size: 15px;
+    position: relative;
+    bottom: 33px;
+
+}
+
+#projects-section .content h1{
+    font-size: 32px;
+    padding: 15px;
+}
+
+#projects-section .project-image:hover {
+    opacity: 2;
+    transition: 0.7s !important;
+}
+
+#projects-section .carousel-inner:hover .project-image img {
+    filter: brightness(0.5) !important;
+    transition: 0.7s !important;
+}
+
+#projects-section .carousel-inner:hover .text-container {
+    opacity: 9;
+    filter: brightness(0.9) !important;
+    transition: 0.7s !important;
+}
+
+#projects-section .carousel-inner:hover .content {
+    color: #ffffff;
+    
+}
+
+#projects-section .text-container .buttons .common-btn{
+    margin: 10px;
+    background-color: #494b61;
+    color: #ffffff;
+    border-radius: 16%;
+    padding: 3px 10px;
+    border-color: transparent !important;
+}
+
+#projects-section .text-container .buttons .common-btn:hover{
+    background-color: transparent;
+    transition: ease-in-out 0.6s;
+    border-radius: 30%;
+    border-color: lightgray !important;
+}
+
+/* #projects-section .text-container .buttons .common-btn{
+    margin: 10px;
+    background-color: #494b61;
+} */
+
+
 
 
