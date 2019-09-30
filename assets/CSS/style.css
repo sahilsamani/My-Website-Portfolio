@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
-body{
+body {
     background-color: #515b69 !important;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-h1{
+h1 {
     font-family: 'Lora', serif;
 }
 
-p{
+p {
     font-family: 'Merriweather', serif;
 }
 
@@ -43,12 +43,12 @@ p{
 }
 
 
-.main-content .common-sub-title{
+.main-content .common-sub-title {
     margin-top: 39px;
 }
 
 
-.main-content .common-sub-title h3{
+.main-content .common-sub-title h3 {
     font-size: 22px;
     font-family: 'Lora', serif;
 }
@@ -63,21 +63,21 @@ p{
 
 /* HEADER BUTTON SECTION */
 
-.header-button .btn{
+.header-button .btn {
     background-color: #3c5763;
     border-radius: 18%;
     color: white;
 }
 
-.header-button .btn:hover{
+.header-button .btn:hover {
     border-radius: 30% !important;
-    background-color: transparent !important; 
+    background-color: transparent !important;
     color: white;
     border-color: gray;
     transition: ease-in 0.4s;
 }
 
-.header-button{
+.header-button {
     margin-top: 50px;
 }
 
@@ -85,19 +85,20 @@ p{
 
 /******************* NAVIGATION SECTION STARTS HERE *************/
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: white !important;
-    margin-right: 15px !important;
+    margin-top: 10px !important;
+    /*    margin-right: 15px !important;*/
 }
 
-.navbar{
+.navbar {
     padding: 38px !important;
 }
 
 
 /* ABOUT ME SECTION */
 
- .common-title {
+.common-title {
     text-align: center;
     font-family: 'Lora', serif;
     font-weight: 500;
@@ -105,7 +106,7 @@ p{
     color: #fefefe;
 }
 
- .common-title::before {
+.common-title::before {
     content: '';
     background-color: #1f226f;
     height: 4px;
@@ -117,7 +118,7 @@ p{
     border-radius: 50%;
 }
 
- .common-title::after {
+.common-title::after {
     content: '';
     background-color: #5a64b7;
     height: 9px;
@@ -132,17 +133,17 @@ p{
 }
 
 
-#aboutMe-section .col-md-6{
+#aboutMe-section .col-md-6 {
     text-align: center !important;
 }
 
-#aboutMe-section .col-md-6 p{
+#aboutMe-section .col-md-6 p {
     margin: 30px !important;
     font-family: 'Merriweather', serif;
     color: #fefefe;
 }
 
-#aboutMe-section .col-md-6 img{
+#aboutMe-section .col-md-6 img {
     border-radius: 40% !important;
     border-color: 3px black !important;
 }
@@ -155,7 +156,7 @@ p{
 #skills-section .card-image img {
     width: 350px;
     opacity: 0.4;
-    
+
 
 }
 
@@ -219,17 +220,17 @@ p{
 
 #skills-section .col-md-6:hover .text-container .content {
     color: #ffffff;
-    
+
 }
 
 
 /**************** PROJECTS SECTION STARTS HERE **************/
 
-#projects-section .project-image{
+#projects-section .project-image {
     text-align: center;
 }
 
-#projects-section .text-container{
+#projects-section .text-container {
     text-align: center;
 }
 
@@ -262,7 +263,7 @@ p{
 
 }
 
-#projects-section .content h1{
+#projects-section .content h1 {
     font-size: 32px;
     padding: 15px;
 }
@@ -285,10 +286,10 @@ p{
 
 #projects-section .carousel-inner:hover .content {
     color: #ffffff;
-    
+
 }
 
-#projects-section .text-container .buttons .common-btn{
+#projects-section .text-container .buttons .common-btn {
     margin: 10px;
     background-color: #494b61;
     color: #ffffff;
@@ -297,7 +298,7 @@ p{
     border-color: transparent !important;
 }
 
-#projects-section .text-container .buttons .common-btn:hover{
+#projects-section .text-container .buttons .common-btn:hover {
     background-color: transparent;
     transition: ease-in-out 0.6s;
     border-radius: 30%;
@@ -308,7 +309,7 @@ p{
 
 /****************** CONTACT US SECTION STARTS HERE ***************/
 
-.contactMe-section{
+.contactMe-section {
     display: flex;
     max-width: 550px;
     margin: 0 auto;
@@ -317,20 +318,20 @@ p{
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(5, 121, 182);
 }
-   
-  .input-sections{
+
+.input-sections {
     display: flex;
     flex-direction: column;
     margin-right: 4%;
-  }
-   
-  .input-sections,
-  .message-section{
+}
+
+.input-sections,
+.message-section {
     width: 48%;
-  }
-   
-  .input-sections .input,
-  .message-section textarea{
+}
+
+.input-sections .input,
+.message-section textarea {
     margin: 10px 0;
     background: transparent;
     border: 0px;
@@ -338,26 +339,28 @@ p{
     padding: 10px;
     color: white;
     width: 100%;
-  }
-   
-  .message-section textarea{
+}
+
+.message-section textarea {
     height: 212px;
-  }
-   
-  ::-webkit-input-placeholder {
+}
+
+::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #c5ecfd;
-  }
-  ::-moz-placeholder {
+}
+
+::-moz-placeholder {
     /* Firefox 19+ */
     color: #c5ecfd;
-  }
-  :-ms-input-placeholder {
+}
+
+:-ms-input-placeholder {
     /* IE 10+ */
     color: #c5ecfd;
-  }
-   
-  .button {
+}
+
+.button {
     background: #6cbbdf;
     text-align: center;
     padding: 15px;
@@ -365,137 +368,155 @@ p{
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
-  }
+}
 
-  .button:hover{
-      background-color: transparent !important;
-      transition: ease-in-out 0.7s;
-      border-radius: 30%;
-      border: 2px solid white;
-  }
-   
+.button:hover {
+    background-color: transparent !important;
+    transition: ease-in-out 0.7s;
+    border-radius: 30%;
+    border: 2px solid white;
+}
 
 
-  /*************** FOOTER SECTION STARTS HERE **************/
 
-  #footer-section{
+/*************** FOOTER SECTION STARTS HERE **************/
+
+#footer-section {
     text-align: center;
     margin-top: 40px;
     background-color: #3a4c66;
-  }
+}
 
-  #footer-section .col-md-12 p{
+#footer-section .col-md-12 p {
     margin-top: 14px;
     color: white;
     font-size: 0.9em;
-  }
+}
 
 
-  /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 
-  @media screen and (max-width: 600px){
-    .contactMe-section{
-      flex-direction: column;
+@media screen and (max-width: 600px) {
+    .contactMe-section {
+        flex-direction: column;
     }
-    .message-section textarea{
-      height: 80px;
+
+    .message-section textarea {
+        height: 80px;
     }
+
     .input-sections,
-    .message-section{
-      width: 100%;
+    .message-section {
+        width: 100%;
     }
-  }
+}
 
 
-  @media only screen and (min-width: 320px) and (max-width: 479px){
+@media only screen and (min-width: 320px) and (max-width: 479px) {
 
-    .main-content{
+    .main-content {
         margin-top: 0px;
     }
 
     #projects-section .carousel-inner .project-image img {
         width: 100%;
         text-align: center;
-  }
-
-  #projects-section .content h1{
-    font-size: 25px;
-  }
-
-  #projects-section .text-container{
-    width: 100%;
-    font-size: 14px;
-  }
-
-  .common-title::before {
-    content: none;
-    
-}
-
- .common-title::after {
-    content: none;
-    
-}
-
-.common-title{
-    padding-top: 35px;
-    padding-bottom: 30px;
-}
-
-}
-
-
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-
-    .main-content{
-        margin-top: 0px;
     }
 
-    #projects-section .carousel-inner .project-image img {
+    #projects-section .content h1 {
+        font-size: 25px;
+    }
+
+    #projects-section .text-container {
         width: 100%;
+        font-size: 14px;
+    }
+
+    .common-title::before {
+        content: none;
+
+    }
+
+    .common-title::after {
+        content: none;
+
+    }
+
+    .common-title {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+}
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+
+
+    .navbar-light .navbar-toggler {
+        margin: 0 auto;
+    }
+
+    .navbar {
         text-align: center;
-  }
+    }
 
-  #projects-section .content h1{
-    font-size: 25px;
-  }
-
-  #projects-section .text-container{
-    width: 100%;
-    font-size: 14px;
-  }
-  .common-title::before {
-    content: none;
-    
-}
-
- .common-title::after {
-    content: none;
-    
-}
-
-.common-title{
-    padding-top: 35px;
-    padding-bottom: 30px;
-}
-}
-
-
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px) {
+    .navbar-light .navbar-toggler {
+        color: white !important;
+        border-color: white !important;
+    }
 
     #index-header-section {
-    background: url(../images/index-imgPhone.jpg);
-    background-size: cover;
-    height: 100vh;
-    min-height: 100%;
-    background-position: center;
+        height: 80vh;
+        overflow: hidden;
     }
 
-    .main-content{
+    .main-content {
+        margin-top: 0px;
+    }
+
+    #projects-section .carousel-inner .project-image img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #projects-section .content h1 {
+        font-size: 25px;
+    }
+
+    #projects-section .text-container {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .common-title::before {
+        content: none;
+
+    }
+
+    .common-title::after {
+        content: none;
+
+    }
+
+    .common-title {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+    #index-header-section {
+        background: url(../images/index-imgPhone.jpg);
+        background-size: cover;
+        height: 100vh;
+        min-height: 100%;
+        background-position: center;
+    }
+
+    .main-content {
         margin-top: 0px;
     }
 
@@ -503,32 +524,51 @@ and (max-device-width : 736px) {
         width: 100%;
         text-align: center;
 
-  }
+    }
 
-  #projects-section .content h1{
-    font-size: 25px;
-  }
+    #projects-section .content h1 {
+        font-size: 25px;
+    }
 
-  #projects-section .text-container{
-    width: 100%;
-    font-size: 14px;
-  }
+    #projects-section .text-container {
+        width: 100%;
+        font-size: 14px;
+    }
 
-  .common-title::before {
-    content: none;
-    
+    .common-title::before {
+        content: none;
+
+    }
+
+    .common-title::after {
+        content: none;
+
+    }
+
+    .common-title {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
 }
 
- .common-title::after {
-    content: none;
-    
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+
+    .navbar-light .navbar-toggler {
+        margin: 0 auto;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white !important;
+        border-color: white !important;
+    }
+
+    #index-header-section {
+        height: 80vh;
+        overflow: hidden;
+    }
 }
-
-.common-title{
-    padding-top: 35px;
-    padding-bottom: 30px;
-}
-}
-
-
-
