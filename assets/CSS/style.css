@@ -181,6 +181,15 @@ p {
     padding: 20px;
 }
 
+#skills-section .card-content3 {
+    background-color: #3a4c66;
+    color: white;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 #skills-section .text-container {
     transition: .5s ease;
     opacity: 0;
@@ -198,7 +207,7 @@ p {
     color: black;
     font-size: 15px;
     position: relative;
-    bottom: 33px;
+    bottom: 50px;
 
 }
 
